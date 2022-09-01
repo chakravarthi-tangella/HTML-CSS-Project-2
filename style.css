@@ -61,19 +61,20 @@ section[aria-label="navbar"]{
 }
 
 .list{
-  width: 100%;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .list-item{
   display: inline-block;
   margin: auto 30px;
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: 500;
   color: #FFC233;
 }
 
 .navbar button{
-    width: 8%;
+    width: 150px;
     position: absolute;
     right: 90px;
     top: 50px;
@@ -98,32 +99,31 @@ section[aria-label="hero"]{
 
 .hero .hero-heading{
   position: absolute;
-  left: 260px;
+  left: 18%;
   top: 40px;
   width: 65%;
-  font-size: 80px;
+  font-size: 7rem;
   font-weight: 500;
-  line-height: 80px;
+  line-height: 8rem;
   font-family: 'Dela Gothic One';
   text-align: center;
   color: #FFC233;
 }
 
 .hero .button-large{
-  width: 20%;
-  font-size: 25px;
+  font-size: 3rem;
   font-weight: 500;
   color: #fff;
   border: none;
   background-color: #FF505F;
   position: absolute;
-  bottom: 200px;
-  padding: 15px 20px;
-  left: 600px;
+  bottom: 17rem;
+  left: 35%;
+  padding: 20px 70px;
 }
 
 .hero img{
-  width: 140px;
+  width: 200px;
   position: absolute;
   bottom: 50px;
   right: 60px;
